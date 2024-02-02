@@ -363,13 +363,18 @@
           <form name="submit-to-google-sheet" class="contact__form">
             <input type="text" name="Name" placeholder="Name" class="contact__input" />
             <input type="mail" name="Email" placeholder="Email" class="contact__input" />
+	   <input type="tel" required maxlength="12" name="MobileNumber" placeholder="Mobile Number" class="contact__input" />
+            <textarea
             <textarea
               name="Message"
               id=""
               cols="0"
               rows="10"
               class="contact__input"
+	      placeholder="Feel free to leave your message here"
             ></textarea>
+	   <input type="number"  name="Rate" class="contact__input" min="1" max="10" placeholder="Rate Portfolio Out of 10">
+            <input
             <input
               type="submit"
               value="Connect"
